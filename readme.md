@@ -12,7 +12,7 @@ DevPulse is a comprehensive developer productivity platform designed to streamli
 ┌───────────────────┐     ┌───────────────────┐     ┌───────────────────┐
 │                   │     │                   │     │                   │
 │  Web Interface    │────▶│  API Gateway      │────▶│  Core Services    │
-│  (Angular)        │     │  (Go)             │     │  (Go)             │
+│  (Next.js)        │     │  (Go)             │     │  (Go)             │
 │                   │     │                   │     │                   │
 └───────────────────┘     └───────────────────┘     └───────────────────┘
            │                                                  │
@@ -39,11 +39,11 @@ DevPulse is a comprehensive developer productivity platform designed to streamli
 
 ### Component Breakdown
 
-1. **Web Interface (Angular)**
+1. **Web Interface (Next.js)**
    - Developer dashboard
    - Environment management UI
    - Service catalog
-   - Terminal access
+   - Terminal access with WebSocket integration
    - Monitoring dashboards
 
 2. **API Gateway (Go)**
@@ -88,7 +88,7 @@ DevPulse is a comprehensive developer productivity platform designed to streamli
 | Component | Technology |
 |-----------|------------|
 | Backend | Go |
-| Frontend | Angular |
+| Frontend | Next.js (React) |
 | Container Orchestration | Kubernetes |
 | Container Runtime | Docker |
 | Caching | Redis |
