@@ -12,7 +12,7 @@
 - [ ] Set up Redis for session management and caching
 - [ ] Configure message queue (RabbitMQ)
 - [ ] Implement basic health check endpoints
-- [ ] Create initial Angular project structure
+- [ ] Create initial Next.js project structure
 
 ### Phase 2: Environment Management (September 9 - September 22, 2025)
 
